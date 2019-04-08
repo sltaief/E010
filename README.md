@@ -9,6 +9,7 @@
 * [Topic 2: Finding Your Way on a Linux System](#topic-2-finding-your-way-on-a-linux-system)
 * [Topic 3: The Power of the Command Line](#topic-3-the-power-of-the-command-line)
 * [Topic 4: The Linux Operating System](#topic-4-the-linux-operating-system)
+* [Topic 5: Security and File Permissions](#topic-5-security-and-file-permissions)
 
 ## Topic 1: The Linux Community and a Career in Open Source
 

@@ -5,9 +5,10 @@
 
 ### Topics
 
-* [Topic 1: The Linux Community and a Career in Open Source]
-* 
-*
+* [Topic 1: The Linux Community and a Career in Open Source](#topic-1-the-linux-community-and-a-career-in-open-source)
+* [Topic 2: Finding Your Way on a Linux System](#topic-2-finding-your-way-on-a-linux-system)
+* [Topic 3: The Power of the Command Line](#topic-3-the-power-of-the-command-line)
+* [Topic 4: The Linux Operating System](#topic-4-the-linux-operating-system)
 
 ## Topic 1: The Linux Community and a Career in Open Source
 

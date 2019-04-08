@@ -47,7 +47,7 @@ The following is a partial list of the used files, terms and utilities:
 * Im Gegensatz zu den beiden großen Linux-Distributionsfirmen Red Hat und Novell/SUSE ist das [Debian-Projekt](http://www.debian.org/) ein Zusammenschluss von Freiwilligen.
 
 
-* Der wahrscheinlich populärste Debian-Ableger ist [Ubuntu](http://www.ubuntu. com/), das von der britischen Firma Canonical Ltd. des südafrikanischen Unternehmers Mark Shuttleworth angeboten wird.
+* Der wahrscheinlich populärste Debian-Ableger ist [Ubuntu](http://www.ubuntu.com/), das von der britischen Firma Canonical Ltd. des südafrikanischen Unternehmers Mark Shuttleworth angeboten wird.
 
 
 ### 1.2 Major Open Source Applications

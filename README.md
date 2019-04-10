@@ -280,6 +280,90 @@ The following is a partial list of the used files, terms and utilities:
 * [Standard-Datenströme](md/10-Linux-System/16-Standard-Datenstroeme.md)
 * [File Manipulationen](md/10-Linux-System/30-Filemanipulationen.md)
 
+**cat** (Kapitel 8.3.1)
+
+cat ist ursprünglich zum Zusammenfügen von Dateien gedacht (von concatenate = verketten, verknüpfen).
+
+	cat >main.js <<%EOF%
+		console.log(‘Hallo Welt’);
+	%EOF%
+	ssh <server> tar czf - /etc | cat - >sicherung.tgz 
+
+**head, tail, less** (Kapitel 8.3.2)
+
+head + tail - Anfang und Ende von Dateien
+
+	head /proc/cpuinfo
+	tail /var/log/apache2/error.log
+	tail -f /var/log/apache2/access.log
+	
+less oder more - Zeigt Texte (etwa Handbuchseiten) seitenweise an
+
+	less /proc/cpuinfo
+
+**wc, sort, uniq** (Kapitel 8.3.1)
+
+**wc** – zählt die Anzahl Wörter, Zeilen
+
+	wc /proc/cpuinfo
+	ls -l | wc –l
+
+**sort** - Sortiert die Zeilen seiner Eingabe
+
+	ls | sort
+
+**uniq** - Entfernt doppelte Einträge
+
+	cat <meineDaten> | sort | uniq
+	
+**cut** (Kapitel 8.4.2)
+
+**cut** - Extrahiert Felder oder Spalten aus seiner Eingabe
+
+	cut -d: -f1 /etc/passwd | sort
+	cut –c1-3 /etc/passwd | sort | uniq | wc -l
+	
+siehe auch: [https://wiki.ubuntuusers.de/cut/](https://wiki.ubuntuusers.de/cut/)
+
+**Reguläre Ausdrücke** (Kapitel 7)
+
+Ein regulärer Ausdruck (englisch regular expression) ist eine Zeichenkette, die der Beschreibung von Mengen von Zeichenketten mit Hilfe bestimmter syntaktischer Regeln dient.
+
+	^ - Beginn Zeile, $ - Ende Zeile
+	[] – Ausdruck beinhaltet Zeichen, z.B. [A-Z]
+	
+**Wildcards**: * - beliebige Wiederholungen, . – ein beliebiges Zeichen.
+
+**grep** (Kapitel 7.3)
+
+**grep, fgrep, egrep** - Sucht in Dateien nach Zeilen mit bestimmtem Inhalt
+
+	grep ubuntu /etc/passwd 
+	grep –v ubuntu /etc/passwd 
+	grep ^[a-z] /etc/passwd
+	
+siehe auch: [https://wiki.ubuntuusers.de/grep/](https://wiki.ubuntuusers.de/grep/)
+
+**sed** 
+
+**sed** (von stream editor) ist ein nicht-interaktiver Texteditor für die Verwendung auf der Kommandozeile oder in Skripten.
+
+	sudo sed -i -e"s/^bind-address\s*=\s*127.0.0.1/bind-address = 0.0.0.0/" /etc/mysql/mysql.conf.d/mysqld.cnf
+	
+siehe auch: [https://wiki.ubuntuusers.de/sed/](https://wiki.ubuntuusers.de/sed/)
+
+**awk**
+
+**awk** - ist eine einfache Programmiersprache für Textverarbeitungszwecke (im weitesten Sinne).
+
+	awk ‘BEGIN { print "Die IP Adresse von localhost ist: " }
+	$2 == "localhost" { print $1 }
+	END   { print "Das war die IP Adresse von localhost."}
+	 ' /etc/hosts 
+	awk '$2 == "localhost" { printf("IP: %s\n", $1 )}' /etc/hosts
+
+siehe auch: [https://wiki.ubuntuusers.de/awk/](https://wiki.ubuntuusers.de/awk/)	
+
 ### 3.3 Turning Commands into a Script
 *** 
 
@@ -421,7 +505,6 @@ The following is a partial list of the used files, terms and utilities:
 **Unterlagen**: 
 * [Boot Prozess](md/10-Linux-System/23-Boot-Prozess.md)
 * [System V](md/10-Linux-System/24-System-V.md)
-* [Disk LVM](md/10-Linux-System/21-Disk-LVM.md)
 
 ### 4.4 Your Computer on the Network
 *** 
@@ -546,6 +629,7 @@ The following is a partial list of the used files, terms and utilities:
 
 * [Troubleshooting](md/10-Linux-System/35-Troubleshooting.md)
 * [Scheduler](md/10-Linux-System/17-Scheduler.md)
+* [Disk LVM](md/10-Linux-System/21-Disk-LVM.md)
 * [Commands](md/10-Linux-System/90-Commands.md)
 * [Ergänzende Unterlagen aus Modul M300](https://github.com/mc-b/M300/tree/master/80-Ergaenzungen)
 

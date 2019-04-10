@@ -10,6 +10,7 @@
 * [Topic 3: The Power of the Command Line](#topic-3-the-power-of-the-command-line)
 * [Topic 4: The Linux Operating System](#topic-4-the-linux-operating-system)
 * [Topic 5: Security and File Permissions](#topic-5-security-and-file-permissions)
+* [Bonusmaterial](#bonusmaterial)
 
 ## Topic 1: The Linux Community and a Career in Open Source
 
@@ -276,8 +277,8 @@ The following is a partial list of the used files, terms and utilities:
 
 **Unterlagen**: 
 * [Linux Essentials][1] von [tuxcademy][7] - Kapitel 8
-* [Files](md/10-Linux-System/16-Standard-Datenstroeme.md)
-* [Files](md/10-Linux-System/30-Filemanipulationen.md)
+* [Standard-Datenströme](md/10-Linux-System/16-Standard-Datenstroeme.md)
+* [File Manipulationen](md/10-Linux-System/30-Filemanipulationen.md)
 
 ### 3.3 Turning Commands into a Script
 *** 
@@ -303,11 +304,11 @@ The following is a partial list of the used files, terms and utilities:
 
 **Unterlagen**: 
 * [Linux Essentials][1] von [tuxcademy][7] - Kapitel 9
-* [Files](md/10-Linux-System/18-Prozesse.md)
-* [Files](md/10-Linux-System/31-sudo.md)
-* [Files](md/10-Linux-System/32-VI_Editor.md)
+* [Prozesse](md/10-Linux-System/18-Prozesse.md)
+* [sudo](md/10-Linux-System/31-sudo.md)
+* [vi Text Editor](md/10-Linux-System/32-VI_Editor.md)
 
-**Linux Grundsatz**
+**Linux Grundsatz** (#! (shebang))
 
 * Es werden beliebige Scriptsprachen unterstützt
 * Der 1. Eintrag in einer Datei bestimmt die Script-Umgebung
@@ -418,9 +419,9 @@ The following is a partial list of the used files, terms and utilities:
 * /boot/, /proc/, /dev/, /sys/
 
 **Unterlagen**: 
-* [Files](md/10-Linux-System/23-Boot-Prozess.md)
-* [Files](md/10-Linux-System/24-System-V.md)
-* [Files](md/10-Linux-System/21-Disk-LVM.md)
+* [Boot Prozess](md/10-Linux-System/23-Boot-Prozess.md)
+* [System V](md/10-Linux-System/24-System-V.md)
+* [Disk LVM](md/10-Linux-System/21-Disk-LVM.md)
 
 ### 4.4 Your Computer on the Network
 *** 
@@ -447,8 +448,8 @@ The following is a partial list of the used files, terms and utilities:
 
 **Unterlagen**: 
 * [Linux Essentials][1] von [tuxcademy][7] - Kapitel 15
-* [Files](md/10-Linux-System/16-Standard-Datenstroeme.md)
-* [Files](md/10-Linux-System/30-Filemanipulationen.md)
+* [Standard Datenströme](md/10-Linux-System/16-Standard-Datenstroeme.md)
+* [File Manipulationen](md/10-Linux-System/30-Filemanipulationen.md)
 
 ## Topic 5: Security and File Permissions
 
@@ -457,17 +458,95 @@ The following is a partial list of the used files, terms and utilities:
 
 > [⇧ **Nach oben**](#topics)
 
+**Weight**: 2
+
+**Description**: Various types of users on a Linux system.
+
+Key Knowledge Areas:
+* Root and standard users
+* System users
+
+The following is a partial list of the used files, terms and utilities:
+* /etc/passwd, /etc/shadow, /etc/group
+* id, last, who, w
+* sudo, su
+
+**Unterlagen**: 
+* [Linux Essentials][1] von [tuxcademy][7] - Kapitel 13
+* [sudo](md/10-Linux-System/31-sudo.md)
+
 ### 5.2 Creating Users and Groups
 *** 
 
 > [⇧ **Nach oben**](#topics)
+
+**Weight**: 2
+
+**Description**: Creating users and groups on a Linux system.
+
+Key Knowledge Areas:
+* User and group commands
+* User IDs
+
+The following is a partial list of the used files, terms and utilities:
+* /etc/passwd, /etc/shadow, /etc/group, /etc/skel/
+* useradd, groupadd
+* passwd
+
+**Unterlagen**: 
+* [Linux Essentials][1] von [tuxcademy][7] - Kapitel 13
+* [User and Groups](md/10-Linux-System/14-User_Groups.md)
+* [Permissions](md/10-Linux-System/15-Permissions.md)
 
 ### 5.3 Managing File Permissions and Ownership
 *** 
 
 > [⇧ **Nach oben**](#topics)
 
+**Weight**: 2
+
+**Description**: Understanding and manipulating file permissions and ownership settings.
+
+Key Knowledge Areas:
+* File and directory permissions and ownership
+
+The following is a partial list of the used files, terms and utilities:
+* ls -l, ls -a
+* chmod, chown
+
+**Unterlagen**: 
+* [Linux Essentials][1] von [tuxcademy][7] - Kapitel 14
+* [Permissions](md/10-Linux-System/15-Permissions.md)
+
 ### 5.4 Special Directories and Files
 *** 
 
 > [⇧ **Nach oben**](#topics)
+
+**Weight**: 1
+
+**Description**: Special directories and files on a Linux system including special permissions.
+
+Key Knowledge Areas:
+* Using temporary files and directories
+* Symbolic links
+
+The following is a partial list of the used files, terms and utilities:
+* /tmp/, /var/tmp/ and Sticky Bit
+* ls -d
+* ln -s
+
+**Unterlagen**: 
+* [Linux Essentials][1] von [tuxcademy][7] - Kapitel 14
+* [Permissions](md/10-Linux-System/15-Permissions.md)
+
+## Bonusmaterial
+
+> [⇧ **Nach oben**](#topics)
+
+* [Troubleshooting](md/10-Linux-System/35-Troubleshooting.md)
+* [Scheduler](md/10-Linux-System/17-Scheduler.md)
+* [Commands](md/10-Linux-System/90-Commands.md)
+* [Ergänzende Unterlagen aus Modul M300](https://github.com/mc-b/M300/tree/master/80-Ergaenzungen)
+
+

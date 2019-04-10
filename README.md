@@ -139,36 +139,154 @@ The following is a partial list of the used files, terms and utilities:
 
 > [⇧ **Nach oben**](#topics)
 
+**Weight**: 3
+
+**Description**: Basics of using the Linux command line.
+
+Key Knowledge Areas:
+* Basic shell
+* Command line syntax
+* Variables
+* Quoting
+
+The following is a partial list of the used files, terms and utilities:
+* Bash
+* echo
+* history
+* PATH environment variable
+* export
+* type
+
+**Unterlagen**: [Linux Essentials][1] von [tuxcademy][7] - Kapitel 4
+
 ### 2.2 Using the Command Line to Get Help
+*** 
+
+> [⇧ **Nach oben**](#topics)
+
+**Weight**: 2
+
+**Description**: Running help commands and navigation of the various help systems.
+
+Key Knowledge Areas:
+* Man pages
+* Info pages
+
+The following is a partial list of the used files, terms and utilities:
+* man
+* info
+* /usr/share/doc/
+* locate
+
+**Unterlagen**: [Linux Essentials][1] von [tuxcademy][7] - Kapitel 5
 
 ### 2.3 Using Directories and Listing Files
+*** 
+
+> [⇧ **Nach oben**](#topics)
+
+**Weight**: 2
+
+**Description**: Navigation of home and system directories and listing files in various locations.
+
+Key Knowledge Areas:
+* Files, directories
+* Hidden files and directories
+* Home directories
+* Absolute and relative paths
+
+The following is a partial list of the used files, terms and utilities:
+* Common options for ls
+* Recursive listings
+* cd
+* . and ..
+* home and ~
+
+**Unterlagen**: 
+* [Linux Essentials][1] von [tuxcademy][7] - Kapitel 6
+* [Filesystem](md/10-Linux-System/12-Filesystem.md)
 
 ### 2.4 Creating, Moving and Deleting Files
+*** 
+
+> [⇧ **Nach oben**](#topics)
+
+**Weight**: 2
+
+**Description**: Create, move and delete files and directories under the home directory.
+
+Key Knowledge Areas:
+* Files and directories
+* Case sensitivity
+* Simple globbing
+
+The following is a partial list of the used files, terms and utilities:
+* mv, cp, rm, touch
+* mkdir, rmdir
+
+**Unterlagen**: 
+* [Linux Essentials][1] von [tuxcademy][7] - Kapitel 6 (letzte zwei Kapitel)
+* [Files](md/10-Linux-System/13-Files.md)
 
 ## Topic 3: The Power of the Command Line
 
 ### 3.1 Archiving Files on the Command Line
+*** 
+
+> [⇧ **Nach oben**](#topics)
 
 ### 3.2 Searching and Extracting Data from Files
+*** 
+
+> [⇧ **Nach oben**](#topics)
 
 ### 3.3 Turning Commands into a Script
+*** 
+
+> [⇧ **Nach oben**](#topics)
+
+
 
 ## Topic 4: The Linux Operating System
 
 ### 4.1 Choosing an Operating System
+*** 
+
+> [⇧ **Nach oben**](#topics)
 
 ### 4.2 Understanding Computer Hardware
+*** 
+
+> [⇧ **Nach oben**](#topics)
 
 ### 4.3 Where Data is Stored 
+*** 
+
+> [⇧ **Nach oben**](#topics)
 
 ### 4.4 Your Computer on the Network
+*** 
+
+> [⇧ **Nach oben**](#topics)
 
 ## Topic 5: Security and File Permissions
 
 ### 5.1 Basic Security and Identifying User Types
+*** 
+
+> [⇧ **Nach oben**](#topics)
 
 ### 5.2 Creating Users and Groups
+*** 
+
+> [⇧ **Nach oben**](#topics)
 
 ### 5.3 Managing File Permissions and Ownership
+*** 
+
+> [⇧ **Nach oben**](#topics)
 
 ### 5.4 Special Directories and Files
+*** 
+
+> [⇧ **Nach oben**](#topics)

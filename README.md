@@ -627,6 +627,7 @@ The following is a partial list of the used files, terms and utilities:
 
 > [⇧ **Nach oben**](#topics)
 
+* [Ubuntu Wiki](https://wiki.ubuntuusers.de/Startseite/)
 * [Troubleshooting](md/10-Linux-System/35-Troubleshooting.md)
 * [Scheduler](md/10-Linux-System/17-Scheduler.md)
 * [Disk LVM](md/10-Linux-System/21-Disk-LVM.md)

@@ -47,7 +47,7 @@ $ ls not-exist 2> /dev/null
 $
 ```
 
-Hier wird ebenfalls ein `ls` auf eine nichtexistierende Datei gemacht, jedoch wird diesmal mit `2>` Kanal 2 nach /dev/null umgeleitet. Somit erscheint keine Fehlerausgabe auf dem Terminal.
+Hier wird ebenfalls ein `ls` auf eine nicht existierende Datei gemacht, jedoch wird diesmal mit `2>` Kanal 2 nach /dev/null umgeleitet. Somit erscheint keine Fehlerausgabe auf dem Terminal.
 
 ## Umleitungen
 

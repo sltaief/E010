@@ -1,6 +1,6 @@
 # Troubleshooting
 
-Hier werden einige Mittel und Methoden zum troubleshooten eines Linux System gezeigt. Die Troubleshooting möglichkeiten sind so vielseitig wie die möglichen Probleme. Daher ist das hier nur eine kleine sammmlung an Möglichkeiten.
+Hier werden einige Mittel und Methoden zum troubleshooten eines Linux System gezeigt. Die Troubleshooting möglichkeiten sind so vielseitig wie die möglichen Probleme. Daher ist das hier nur eine kleine sammlung an Möglichkeiten.
 
 
 ### angeschlossenen USB Geräte

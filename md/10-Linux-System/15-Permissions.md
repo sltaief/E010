@@ -12,7 +12,7 @@ Ownership sind mit `ls -l` ersichtlich.
 
 Zum ändern der Ownership wird `chown <user>:<gruppe> datei` verwendet.
 
-Beispiel: File Onership von *textfile.txt* auf bem:root ändern
+Beispiel: File Ownership von *textfile.txt* auf bem:root ändern
 
 `chown bem:root textfile.txt`
 
@@ -20,9 +20,9 @@ Beispiel: File Onership von *textfile.txt* auf bem:root ändern
 
 ### chmod
 
-Jedes File und Verzeichnis hat prinzipiel für den **Besitzer** , die **Gruppe** und der ganze **Rest**, oder besser bakannt unter **Owner, Group und Others** entsprechende Berechtigungen.
+Jedes File und Verzeichnis hat prinzipiel für den **Besitzer** , die **Gruppe** und der ganze **Rest**, oder besser bekannt unter **Owner, Group und Others** entsprechende Berechtigungen.
 
-Für jeden erwähnten Typ kann jeweils *eines*, *keines* oder *mehrere* der folgenden Rechte (Permission)vergeben werden.
+Für jeden erwähnten Typ kann jeweils *eines*, *keines* oder *mehrere* der folgenden Rechte (Permission) vergeben werden.
 
 |permission|mit *ls* angezeigt als|octal|
 |:--:|:--:|:--:|
@@ -76,7 +76,7 @@ Achtung: Die **umask** geht immer von der **Basepermission** aus.
 * Standartpermission für Files ist 666, entspricht rw-rw-rw-
 * Standartpermission für Verzeichnise ist 777, entspricht rwxrwxrwx
 
-Die effeltive Permission  kann anhand der **umask** folgendermassen berechnet werden.
+Die effektive Permission  kann anhand der **umask** folgendermassen berechnet werden.
 
 Angenommen wir haben eine **umask** von 022:
 
@@ -85,7 +85,7 @@ Die Formel lautet: `Basepermission - umask`
 FilePermission: 666 - 022 = 644 (rw-r-r)
 Verzeichnispermission: 777- 022 = 755 (rwxr-xr-x)
 
-Auf gehärtetens Systeme wird meistens eine *umask* von 027 verwendet
+Auf gehärteten Systemen wird meistens eine *umask* von 027 verwendet
 
 
 ## wichtige Befehle

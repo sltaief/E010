@@ -85,7 +85,7 @@ Folgendes Beispiel erzeugt ein *EXT4 Filesystem* in der Disk Partition `/dev/sdb
 
 ## LVM - logical Volume Management
 
-LVM oder auch logical Volume Management ist ein Abstraktionlayer über der physikalischen Platte(n). Der grosse Vorteil besteht darin, dass der Speicherplatz durch Zufügen von weiteren Platten dynamisch und flexibel vergrössert oder auch verkleinert werden kann.  Die Partitionierung ist nicht mehr auf die Grösser der physikalischen Platte beschränkt.
+LVM oder auch logical Volume Management ist ein Abstraktionlayer über der physikalischen Platte(n). Der grosse Vorteil besteht darin, dass der Speicherplatz durch Zufügen von weiteren Platten dynamisch und flexibel vergrössert oder auch verkleinert werden kann.  Die Partitionierung ist nicht mehr auf die Grösse der physikalischen Platte beschränkt.
 
 ### Aufbau
 
@@ -133,7 +133,7 @@ Ein *physical Volume* kann entweder aus einer komplette Disk oder einer bestimmt
 
 ### Volume Group - VG
 
-Eine *Vulume Group* setze sich aus einem oder mehreren *physical Volumes* zusammen.
+Eine *Volume Group* setzt sich aus einem oder mehreren *physical Volumes* zusammen.
 
 ##### VG erstellen
 

@@ -1,7 +1,7 @@
 [1]: https://www.tuxcademy.org/download/de/grd1/grd1-de-manual.pdf#chapter.82
 # der VI Editor
 
-Der VI (oder auch VIM) ist eine sehr mächstiger Editor. Der Vorteil von **vi**, er ist
+Der VI (oder auch VIM) ist ein sehr mächtiger Editor. Der Vorteil von **vi**, er ist
 auf jedem Linux System verfügbar. Es lohnt sich daher, die wichtigsten Befehle von **vi**
 zu beherrschen. Das ist insbesondere auch beim Troubleshooting wichtig, da hier
 optionale Editoren wie etwa der **nano** oft nicht zur Verfügung stehen.

@@ -8,7 +8,7 @@ Prozesse können im **Foreground** oder **Background** ausgeführt werden. Sie k
 
 Ebenfalls kann die Priorität eines Prozesses mit `nice` und `renice` beeinflusst werden.
 
-Die Prozessverwaltung ist eine relativ komplexe Sache und es braucht etwas Übung beim Umgan mit ihnen.
+Die Prozessverwaltung ist eine relativ komplexe Sache und es braucht etwas Übung beim Umgang mit ihnen.
 
 [SelfLinux][2] bietet eine gute [Prozess Dokumentation][3]
 
@@ -168,7 +168,7 @@ Background Prozess **forced** killen
 
 ### Prozesse mit **nuhup** starten
 
-Wird der *parent* Prozess eines Prozesses beendet, so beendet sich in auch dessen *child* Prozess. Das ist beispielsweise der Fall, wenn eine *ssh* Verbindung beendet wird. In der Regel ist das so auch ganz ok, manchmal will man aber, dass ein Prozess auch dann noch weiterläuft, wenn die Verbindung unterbrochen wird (oder der *arent* Prozess aus einem anderen Grund beendet wurde). Das kann insbesondere bei *sehr lange laufenden Jobs* der Fall sein. In diesem Fall kann der Prozess mit **nohup** gestartet werden.
+Wird der *parent* Prozess eines Prozesses beendet, so beendet sich in auch dessen *child* Prozess. Das ist beispielsweise der Fall, wenn eine *ssh* Verbindung beendet wird. In der Regel ist das so auch ganz ok, manchmal will man aber, dass ein Prozess auch dann noch weiterläuft, wenn die Verbindung unterbrochen wird (oder der *parent* Prozess aus einem anderen Grund beendet wurde). Das kann insbesondere bei *sehr lange laufenden Jobs* der Fall sein. In diesem Fall kann der Prozess mit **nohup** gestartet werden.
 
 Folgendes Beispiel führt das Kommando `find` im Hintergrund aus und erstellt eine Liste der Filetypen im /tmp.
 Mit der `nohup` Option wird der Befehl auch beim Schliessen des Session weiter ausgeführt.

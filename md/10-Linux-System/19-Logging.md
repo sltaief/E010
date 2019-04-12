@@ -8,7 +8,7 @@
 **Syslog** ist der standard Logger unter Unix. Die Konfiguration wird in `/etc/syslog.conf` oder`/etc/rsyslog.conf` definiert.
 
 ###  Die Syslog Levels
-Syslog Meldungen können nach verschiedenen Kritikalität erstellt werden.
+Syslog Meldungen können nach verschiedenen Kriterien erstellt werden.
 
 |Nr.|Level| Beispiel|
 |:--:|:--:|:--|
@@ -25,12 +25,12 @@ Syslog Meldungen können nach verschiedenen Kritikalität erstellt werden.
 Die Logfiles wachsen ständig an. Würde kein *Housekeeping* stattfinden so würde früher oder später eine Festplatte volllaufen. Um das zu verhindern, führt das `logtotate` Programm über Cron gesteuert regelmässig ein *Housekeeping* der Logfiles durch. Dabei können Logfiles archiviert, komprimiert und auch gelöscht werden. In der Konfigurationsdatei `/etc/logrotate.conf` wird Logtotate definiert.
 
 ## dmesg
-Mit dem Kommando `dmesg` werden Kernel Meldungen des Bootvorgangs angezeigt. Das kann sehr nützlich sein, wenn Informationen über Hardware Treiber oder sonstiger Hardwre benötigt werden.
+Mit dem Kommando `dmesg` werden Kernel Meldungen des Bootvorgangs angezeigt. Das kann sehr nützlich sein, wenn Informationen über Hardware Treiber oder sonstiger Hardware benötigt werden.
 
 
 ## Journalctl - das neue Logging von systemd
 
-Journalctl kann alles was syslog kann. Es ist ein neur Ansatz und wird irgendwann syslog komplett ersetzen. Journalctl und Syslog können problemlos parallel betrieben werden. Wir gehen hier nicht weiter auf jornalctl ein, da aktuell in der Praxis noch immer syslog weiterverbreitet ist. Trotzdem lohnt es sich durchwegs, einmal genauer zu schauen was journalctl kann.
+Journalctl kann alles was syslog kann. Es ist ein neuer Ansatz und wird irgendwann syslog komplett ersetzen. Journalctl und Syslog können problemlos parallel betrieben werden. Wir gehen hier nicht weiter auf jornalctl ein, da aktuell in der Praxis noch immer syslog weiterverbreitet ist. Trotzdem lohnt es sich durchwegs, einmal genauer zu schauen was journalctl kann.
 
 
 ## logger - Logmessages schreiben

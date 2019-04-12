@@ -6,7 +6,7 @@ oder eine *Textdatei* ist, es ist immer ein **File**
 
 ## File Typen
 
-Unix kennt verschiedne Filetypen. Der Filetype wird jeweils mit dem esten Charakter bei einem `ls -l` angezeigt.
+Unix kennt verschiedene Filetypen. Der Filetype wird jeweils mit dem esten Charakter bei einem `ls -l` angezeigt.
 
 ```
 crw-rw----. 1 root disk     21,   1 May 21 19:24 sg1

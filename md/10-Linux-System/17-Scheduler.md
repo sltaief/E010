@@ -15,7 +15,7 @@ Einen Cron Eintrag zu definieren ist relativ einfach, folgende Grafik zeigt den 
 
 ![Image](../../images/crontab.png)
 
-Ein `*` beduetet, dass jedes Ereignis zutrifft. Jeder Wert kann mit Komma getrennt, mehrfach definiert werden.
+Ein `*` bedeutet, dass jedes Ereignis zutrifft. Jeder Wert kann mit Komma getrennt, mehrfach definiert werden.
 
 |Feld|Beschreibung|mögliche Werte|
 |:--:|:--:|:--:|
@@ -26,7 +26,7 @@ Ein `*` beduetet, dass jedes Ereignis zutrifft. Jeder Wert kann mit Komma getren
 |5 |Tag in der Woche|0-6 (Start mit Son 0, Mon 1 usw..) |
 |6 |Command | Kommando das ausgeführt wird|
 
-Beispiel: Führt das Kommando von Montag bis Freitag zwichen 07:00 bis 17:00 jewiels alle 10 Minuten aus.
+Beispiel: Führt das Kommando von Montag bis Freitag zwichen 07:00 bis 17:00 jeweils alle 10 Minuten aus.
 
 `0,10,20,30,40,50 07-17 * * 1-5 /path/command`
 

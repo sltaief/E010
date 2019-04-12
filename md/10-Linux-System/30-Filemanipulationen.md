@@ -3,7 +3,7 @@ Alle hier vorgestellten *Kommandos* sind sehr nützlich und meist auch sehr mäc
 Unix Tools. Die meisten haben eine Vielzahl von Optionen, welche jeweils den
 Anforderungen der Aufgabe angepasst werden müssen. Hier werden lediglich die Tools
 vorgestellt. Über jedes dieser Tools findet man im Internet haufenweise nützliche
-Beispiele zu den verschiednenen Anforderunge.
+Beispiele zu den verschiednenen Anforderungen.
 
 ## Filemanipulationen
 

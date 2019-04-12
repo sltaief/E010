@@ -31,7 +31,7 @@ Sehr nützlich ist die Verwendung von Aliases innerhalb der sudo-Definition. Die
 
 Es stehen unter Anderem folgende Aliases zur Verfügung:
 
-* User_Alias - Liste von Useren für die eine Definition gelten soll
+* User_Alias - Liste von Usern für die eine Definition gelten soll
 * Runas_Alias - Liste von Accounts unter welchen ein Kommando ausgeführt werden soll
 * Host_Alias - Liste von Hosts auf welchen ein Kommando ausgeführt werden kann
 * Cmnd_Alias - Liste von Kommandos

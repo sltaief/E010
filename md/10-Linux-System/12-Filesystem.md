@@ -4,7 +4,7 @@
 
 ## Aufbau
 
-das Linux Filesystem beginnt immer im Worzelverzeichnis, dem *root* resp. */* . Alle weiteren
+das Linux Filesystem beginnt immer im Wurzelverzeichnis, dem *root* resp. */* . Alle weiteren
 Verzeichnise basieren auf diesem Rootverzeichnis.
 
 Für einen **„normalen“ Benutzer** ist vor allem das **Home-Verzeichnis** von Bedeutung, das häufig mit ~ abgekürzt und unter dem Verzeichnis-Pfad /home/benutzername abgelegt ist.

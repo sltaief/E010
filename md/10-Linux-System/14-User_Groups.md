@@ -3,7 +3,7 @@
 # User und Gruppen
 
 Jedem User und jeder Gruppe wird eine eindeutige **ID** zugewiesen. Dabei muss zwischen **normalen**
-User und Gruppen und **system** User und Gruppen unterschiednen werden.
+User und Gruppen und **system** User und Gruppen unterschieden werden.
 
 Normale User und Gruppen sind eigentliche Benutzer des Systems, auch sogenannte **Login-User**
 System Usser und Gruppen sind wie der Name schon verrät, fürs System reserviert.
@@ -45,12 +45,12 @@ bem:x:1000:1000:TBZ User:/home/bem:/bin/bash
 ```
 
 ### User inklusive Home-Verzeichnis löschen
-Zum löschen eines User wird der Befhel `userdel` verwendet.
+Zum löschen eines User wird der Befehl `userdel` verwendet.
 
 `userdel -r <user>`
 
 ### Gruppe anlegen
-Zum anlegen einer Gruppe wird der Befhel `groupadd` verwendet.
+Zum anlegen einer Gruppe wird der Befehl `groupadd` verwendet.
 
 `groupadd <grp-name>`
 
